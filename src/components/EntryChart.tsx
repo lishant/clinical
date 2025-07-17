@@ -34,7 +34,7 @@ const metrics = [
   { label: "Prosodic Variation", value: "prosodicVariation" },
   { label: "Total Pause Time", value: "totalPauseTime" },
   { label: "Mean Pause Duration", value: "meanPauseDuration" },
-  { label: "Syntactic Complexit", value: "syntacticComplexity" },
+  { label: "Syntactic Complexity", value: "syntacticComplexity" },
 ];
 
 function groupAndAverage(entries: EntryMetric[], metric: keyof EntryMetric, groupBy: 'daily' | 'weekly' | 'monthly') {
