@@ -16,7 +16,7 @@ interface SpeechMetricsProps {
 const SpeechMetrics: React.FC<SpeechMetricsProps> = ({Metrics}) => {
   return (
     <div className="bg-white p-4 rounded-lg shadow-md">
-      <h2 className="text-lg font-semibold mb-2">Speech Metrics</h2>
+      <h2 className="text-lg font-semibold mb-2">Average Speech Metrics - Overall</h2>
       <table className="min-w-full text-sm">
         <tbody className="divide-y divide-gray-200">
           {Metrics.map(([label, value]) => (
