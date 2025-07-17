@@ -79,14 +79,14 @@ const Dashboard = () => {
     ); // Calculate average synthetic speech rate
     semanticErrorRate = parseFloat((semanticErrorRate / arrLength).toFixed(2)); // Calculate average semantic error rate
     prosodicVariation = parseFloat((prosodicVariation / arrLength).toFixed(2)); // Calculate average prosodic
-    result.push(["Words Per Minute(WPM)", wpm]);
-    result.push(["Total pause time", totalPauseTime]);
-    result.push(["Mean pause duration", meanPauseDuration]);
-    result.push(["Pause density", pauseDensity]);
-    result.push(["Articulation rate", articulationRate]);
-    result.push(["Lexical diversity", lexicalDiversity]);
-    result.push(["Syntactic Complexit", syntacticComplexity]);
-    result.push(["Semantic error rate", semanticErrorRate]);
+    result.push(["Words Per Minute (WPM)", wpm]);
+    result.push(["Total Pause Time", totalPauseTime]);
+    result.push(["Mean Pause Duration", meanPauseDuration]);
+    result.push(["Pause Density", pauseDensity]);
+    result.push(["Articulation Rate", articulationRate]);
+    result.push(["Lexical Diversity", lexicalDiversity]);
+    result.push(["Syntactic Complexity", syntacticComplexity]);
+    result.push(["Semantic Error Rate", semanticErrorRate]);
     result.push(["Prosodic Variation", prosodicVariation]);
     setPatientMetrics(result);
     return result;
