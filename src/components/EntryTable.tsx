@@ -47,7 +47,7 @@ const EntryTable: React.FC<EntryTableProps> = ({ patient }) => {
         <thead className="bg-gray-100">
           <tr>
             <th className="p-2 text-left">Date & Time</th>
-            <th className="p-2">Excerpt</th>
+            <th className="p-2">Raw Text</th>
             <th className="p-2">Image</th>
             <th className="p-2">Audio</th>
           </tr>
