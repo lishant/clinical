@@ -15,19 +15,19 @@ export default function EntryModal({ entry, onClose }: any) {
             </li>
           ))} */}
           <li className='flex justify-between'>
-            <span className='capitalize'>Words Per Miniute(WPM)</span>
+            <span className='capitalize'>Words Per Minute (WPM)</span>
             <span className='font-medium'>{parseFloat((entry.wpm).toFixed(2))}</span>
           </li>
           <li className='flex justify-between'>
-            <span className='capitalize'>Total Pause time</span>
+            <span className='capitalize'>Total Pause Time</span>
             <span className='font-medium'>{parseFloat((entry.totalPauseTime).toFixed(2))}</span>
           </li>
           <li className='flex justify-between'>
-            <span className='capitalize'>Mean pause duration</span>
+            <span className='capitalize'>Mean Pause Duration</span>
             <span className='font-medium'>{parseFloat((entry.meanPauseDuration).toFixed(2))}</span>
           </li>
           <li className='flex justify-between'>
-            <span className='capitalize'>Pause density</span>
+            <span className='capitalize'>Pause Density</span>
             <span className='font-medium'>{parseFloat((entry.pauseDensity).toFixed(2))}</span>
           </li>
           <li className='flex justify-between'>
@@ -35,11 +35,11 @@ export default function EntryModal({ entry, onClose }: any) {
             <span className='font-medium'>{parseFloat((entry.articulationRate).toFixed(2))}</span>
           </li>
           <li className='flex justify-between'>
-            <span className='capitalize'>Lexical diversity</span>
+            <span className='capitalize'>Lexical Diversity</span>
             <span className='font-medium'>{parseFloat((entry.lexicalDiversity).toFixed(2))}</span>
           </li>
           <li className='flex justify-between'>
-            <span className='capitalize'>SyntacticComplexity</span>
+            <span className='capitalize'>Syntactic Complexity</span>
             <span className='font-medium'>{parseFloat((entry.syntacticComplexity).toFixed(2))}</span>
           </li>
           <li className='flex justify-between'>
